@@ -36,21 +36,21 @@ How to install:
 	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
-		$("#rainmaker").rainmaker({
-		   language: "en",
-		   cities: Array(
-				"belgrade", "Belgrade",
-				"paris", "Paris",
-				"london", "London", 
-				"moscow", "Moscow", 
-				"10099","New York", // postal code
-				",,,43724590,19707284","Zlatibor" // coordinates (notice 3 comas)
-		   ),
-		   showForecast: true,
-		   showForecastString: 'Show forecast',
-		   hideForecastString: 'Hide forecast',
-		   hideCurrentConditions: true
-		});	
+	$("#rainmaker").rainmaker({
+	language: "en",
+	cities: Array(
+	"belgrade", "Belgrade",
+	"paris", "Paris",
+	"london", "London", 
+	"moscow", "Moscow", 
+	"10099","New York", // postal code
+	",,,43724590,19707284","Zlatibor" // coordinates (notice 3 comas)
+	),
+	showForecast: true,
+	showForecastString: 'Show forecast',
+	hideForecastString: 'Hide forecast',
+	hideCurrentConditions: true
+	});	
 	});
 	</script>
 
