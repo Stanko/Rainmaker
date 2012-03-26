@@ -21,16 +21,16 @@ Then XML file is parsed and weather information is displayed, using Ajax request
 
 How to install:
 ---------------
-* Copy whole 'rainmaker' folder somewhere in your hosting.
-* Be sure to have jQuery.
-* Edit page where you want to put widget and insert:
+1. Copy whole 'rainmaker' folder somewhere in your hosting.
+2.  Be sure to have jQuery.
+3. Edit page where you want to put widget and insert:
 	
-<div id="rainmaker"></div>
+	<div id="rainmaker"></div>
 
 (Note that widget itself is 180px wide and floats left. 
 (Fully customizable via CSS.)
 
-* Put this in header of your page
+4. Put this in header of your page
 
 	<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
 	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
