@@ -24,16 +24,14 @@ How to install:
 * Copy whole 'rainmaker' folder somewhere in your hosting.
 * Be sure to have jQuery.
 * Edit page where you want to put widget and insert:
-	
-	<pre>
+<pre>
 	<div id="rainmaker"></div>
-	</pre>
+</pre>
 (Note that widget itself is 180px wide and floats left. 
 (Fully customizable via CSS.)
 
 * Put this in header of your page
-<pre>
-	<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
+<pre><link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
 	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -60,7 +58,8 @@ Available options (default options displayed)
 ---------------------------------------------
 	url                     path to google-weather.php file
 	language		        language in ISO format (en, sr...)
-	cities			        arrays of cities, in one of following formats, second string is the name which will be displayed
+	cities			        arrays of cities, in one of following formats, 
+							second string is the name which will be displayed
 								name - "belgrade", "Belgrade",
 								postal code - "10099","New York"
 								coordinates (notice 3 comas) - ",,,43724590,19707284","Zlatibor"
