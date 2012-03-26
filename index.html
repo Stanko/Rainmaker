@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rainmaker</title>
+
+<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="rainmaker/jquery.rainmaker.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#rainmaker").rainmaker({
+	   language: "en",
+	   cities: Array(
+			"belgrade", "Belgrade",
+			"paris", "Paris",
+			"london", "London", 
+			"moscow", "Moscow", 
+			"banja luka", "Banja Luka", 
+			"10099","New York", // postal code
+			",,,43724590,19707284","Zlatibor" // coordinates (notice 3 comas)
+	   ),
+	   showForecast: true,
+	   showForecastString: 'Show forecast',
+	   hideForecastString: 'Hide forecast',
+	   hideCurrentConditions: true
+	});	
+});
+</script>
+
+<style>
+body{
+background: #5D6778;
+font: 14px arial, tahoma;
+color: #EEE;
+}
+h1,h2,h3{text-shadow: 1px 1px 2px #222; color: #C2C7CF;}
+h1{font-size:2em}
+h2{font-size:1.5em}
+h3{font-size:1.2em}
+#wrapper{
+text-align:center;
+width:960px;
+position:relative;
+margin:20px auto;
+}
+#wrapper{
+width:960px;
+position:relative;
+margin:20px auto;
+}
+#rainmaker{
+float:none;
+position:relative;
+margin:20px auto;
+-moz-border-radius: 10px; -webkit-border-radius: : 10px; border-radius: 10px;
+background: #f5f5fb;
+-moz-box-shadow: 0px 0px 15px #333;
+}
+pre, p{
+-moz-border-radius: 10px; -webkit-border-radius: : 10px; border-radius: 10px;
+background: #f5f5fb;
+-moz-box-shadow: 0px 0px 15px #333;
+padding:20px;
+color:#222;
+}
+a{ text-decoration: none; }
+a h2:hover{
+text-decoration:underline;
+}
+pre{
+text-align:left;
+}
+</style>
+
+</head>
+<body>
+
+<div id="wrapper">
+<h1>Rainmaker</h1>
+<!-- Begin of Weather Widget -->
+<div id="rainmaker"></div>
+<!-- End of Weather Widget -->
+
+<a href="http://sale.mfhinc.net/2010/04/24/jquery-rainmaker/"><h2>Back to article</h2></a>
+<a href="http://sale.mfhinc.net/wp-content/uploads/2010/04/rainmaker.zip"><h2>Download</h2></a>
+<h2>Options used</h2>
+<pre>
+	$("#rainmaker").weatherWidget({
+	   language: "en",
+	   cities: Array(
+			"belgrade", "Belgrade",
+			"paris", "Paris",
+			"london", "London", 
+			"moscow", "Moscow", 
+			"10099","New York", // postal code
+			",,,43724590,19707284","Zlatibor" // coordinates (notice 3 comas)
+	   ),
+	   showForecast: true,
+	   showForecastString: 'Show forecast',
+	   hideForecastString: 'Hide forecast',
+	   hideCurrentConditions: true
+	});	
+</pre>
+
+<div>
+
+</body>
+</html>

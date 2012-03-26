@@ -1,0 +1,61 @@
+#rainmaker{
+	font-size:11px; font-family: Tahoma, Arial, Verdana;
+	position:relative; float:left;
+	overflow:hidden; 
+	width:180px;
+	padding:5px 10px;
+	width/**/:/**/160px;
+	color: #111;
+}
+#rainmaker img{width:40px; height:40px;}
+#rainmaker .float-left{
+	position: relative; float: left;
+}
+#rainmaker #current{
+	position:relative; float:left; 
+	font-size:11px;
+	width:160px; height:60px;
+	background: transparent;
+}
+#rainmaker #forecast{
+	text-align:center; font-size:10px;
+	position:relative; float:left;
+	display: none;
+	width:160px;
+	
+}
+#rainmaker a#show-forecast{
+	position:relative; float:left;
+	cursor: pointer;
+	display: none;
+}
+#rainmaker a#show-forecast:hover{
+}
+#rainmaker #forecast div{
+	position:relative; float:left; 
+	width:80px;
+	margin: 5px 0;
+}
+#rainmaker #forecast .day{
+	font-weight:bold; text-transform:capitalize;
+}
+#rainmaker #current span{
+	display:block; margin-right:5px;
+	text-align: right; 
+}
+#rainmaker #forecast span{
+	clear:right; display:block; 
+}
+#rainmaker #current img{
+	float:left; margin-right:5px;
+}
+#rainmaker #cities{
+	clear:both; display:block; float:left;
+	position:relative; margin-top:5px;
+	width:160px; display:none;
+}
+#rainmaker h4#city{
+	font-size:16px;margin: 0 0 5px 0; 
+	display:block; clear:right;
+}
+#rainmaker h4{font-size:11px;}
