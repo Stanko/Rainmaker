@@ -2,9 +2,14 @@ Rainmaker
 ===========
 
 jQuery Weather Widget
+
 Powered by Google weather api
+
 Version 1.0
+
 You can use and abuse it :)
+
+Soon live demo...
 
 
 
