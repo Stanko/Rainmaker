@@ -17,7 +17,7 @@ Of course you can use language of your choice to provide xml from Google api (ca
 
 How it works:
 -------------
-Weather Widget uses google-weather.php to get XML file from Google weather api for selected cities and language. 
+Rainmaker uses google-weather.php to get XML file from Google weather api for selected cities and language. 
 Then XML file is parsed and weather information is displayed, using Ajax requests which are done by jQuery.
 
 How to install:
