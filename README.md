@@ -25,16 +25,15 @@ How to install:
 * Copy whole 'rainmaker' folder somewhere in your hosting.
 * Be sure to have jQuery.
 * Edit page where you want to put widget and insert:
-
 `<div id="rainmaker"></div>`
 
 (Note that widget itself is 180px wide and floats left. 
 (Fully customizable via CSS.)
 
 * Put this in header of your page
-	`<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />`
-	`<script type="text/javascript" src="rainmaker/rainmaker.js"></script>`
-	`<script type="text/javascript">`
+<pre><link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
+	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
+	<script type="text/javascript">
 	$(document).ready(function(){
 		$("#rainmaker").rainmaker({
 		   language: "en",
@@ -52,7 +51,8 @@ How to install:
 		   hideCurrentConditions: true
 		});	
 	});
-	`</script>`
+	</script>
+</pre>
 
 Available options (default options displayed)
 ---------------------------------------------
