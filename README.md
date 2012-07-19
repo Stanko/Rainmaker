@@ -33,7 +33,8 @@ How to install:
 
 * Put this in header of your page
 
-``<pre><link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
+``	
+	<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" /><br/>
 	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
 	<script type="text/javascript">
 	$(document).ready(function(){
@@ -54,7 +55,7 @@ How to install:
 		});	
 	});
 	</script>
-</pre>``
+``
 
 Available options (default options displayed)
 ---------------------------------------------
