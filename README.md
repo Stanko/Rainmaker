@@ -32,10 +32,9 @@ How to install:
 (Fully customizable via CSS.)
 
 * Put this in header of your page
-```
-	<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
-	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
-	<script type="text/javascript">
+`<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />`
+	`<script type="text/javascript" src="rainmaker/rainmaker.js"></script>`
+	`<script type="text/javascript">`
 	$(document).ready(function(){
 		$("#rainmaker").rainmaker({
 		   language: "en",
@@ -53,8 +52,7 @@ How to install:
 		   hideCurrentConditions: true
 		});	
 	});
-	</script>
-```
+	`</script>`
 
 Available options (default options displayed)
 ---------------------------------------------
