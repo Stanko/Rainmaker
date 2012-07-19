@@ -32,7 +32,7 @@ How to install:
 (Fully customizable via CSS.)
 
 * Put this in header of your page
-
+```
 	<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
 	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
 	<script type="text/javascript">
@@ -54,6 +54,7 @@ How to install:
 		});	
 	});
 	</script>
+```
 
 Available options (default options displayed)
 ---------------------------------------------
