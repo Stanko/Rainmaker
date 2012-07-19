@@ -34,6 +34,7 @@ How to install:
 * Put this in header of your page
 
 Code:
+
 	<link href="rainmaker/rainmaker.css" rel="stylesheet"  type="text/css" />
 	<script type="text/javascript" src="rainmaker/rainmaker.js"></script>
 	<script type="text/javascript">
