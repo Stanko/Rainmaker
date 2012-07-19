@@ -25,9 +25,11 @@ How to install:
 * Copy whole 'rainmaker' folder somewhere in your hosting.
 * Be sure to have jQuery.
 * Edit page where you want to put widget and insert:
+
 <pre>
 	<div id="rainmaker"></div>
 </pre>
+
 (Note that widget itself is 180px wide and floats left. 
 (Fully customizable via CSS.)
 
